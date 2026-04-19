@@ -1,0 +1,17 @@
+[project]
+name = "previsao-vendas"
+version = "0.1.0"
+description = "E-commerce Sales Prediction Model"
+requires-python = ">=3.9"
+dependencies = [
+    "joblib>=1.3.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "seaborn>=0.13.0",
+    "streamlit>=1.28.0",
+]
+
+[build-system]
+requires = ["setuptools>=67.0"]
+build-backend = "setuptools.build_meta"
+
